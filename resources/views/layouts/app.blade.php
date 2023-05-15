@@ -13,22 +13,19 @@
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('assets/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="{{ asset('assets/css/sb-admin-2.min.css')}}" rel="stylesheet">
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="font-family:'Inter', sans-serif;">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:#273c75;">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -38,7 +35,7 @@
             </a>
 
             <!-- Divider -->
-            <hr class="sidebar-divider">
+            <hr class="sidebar-divider" style="background-color:orange;">
 
             <!-- Heading -->
             <div class="sidebar-heading">
@@ -49,30 +46,30 @@
 
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('product.index') }}">
-                    <i class="fas fa-fw fa-chart-area"></i>
+                    <i class="fa fa-shopping-cart"></i>
                     <span>Products</span></a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('category.index') }}">
-                    <i class="fas fa-fw fa-chart-area"></i>
+                    <i class="fa fa-bars"></i>
                     <span>Categories</span></a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-chart-area"></i>
+                    <i class="fa fa-shopping-basket"></i>
                     <span>Carts</span></a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-chart-area"></i>
+                    <i class="fa fa-credit-card"></i>
                     <span>Orders</span></a>
             </li>
 
             <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
+            <hr class="sidebar-divider d-none d-md-block" style="background-color:orange;">
 
             <!-- Sidebar Toggler (Sidebar) -->
             <div class="text-center d-none d-md-inline">
